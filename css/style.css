@@ -1,0 +1,282 @@
+/* this document is style.css */
+
+
+
+footer{
+	background-color: #D4FF76;
+	height: 80px;
+	width: 100%;
+	color: #FFFFFF; 
+	font-size: 25px;
+	border-radius: 10px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+/* horizontal navbar css below */
+
+.horizontaldiv{
+	width: 100%;
+	background-color: #D4FF76;
+	display: block;
+	height:80px;
+	position: static;
+	border-radius: 10px;
+}
+
+.horizontalnav{
+	margin: auto;
+	width:700px;
+	display: block;
+}
+
+.horizontalul{
+    list-style: none;
+    overflow: hidden;
+}
+
+.horizontalli{
+    float: left;
+	font-style: bold;
+}
+
+.horizontala:link, .horizontala:visited {
+    display: block;
+    width: 220px;
+	height: 75px;
+	background-color: #D4FF76;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-size: 35px;
+	font-style: bold;
+}
+
+.horizontala:hover, .horizontala:active {
+    background-color: #DEFF0E;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-style: bold;
+	border-bottom: 5px solid #26FF2F;
+}
+
+/* vertical navbar css below */
+
+.verticalul{
+    list-style: none;
+    overflow: hidden;
+}
+
+.verticala:link, .verticala:visited {
+    width: 100%;
+	height: 80px;
+    text-align: left;
+    text-decoration: none;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-size: 35px;
+	font-style: bold;
+}
+
+.verticala:hover, .verticala:active {
+	color: #26FF2F;
+}
+
+/* main div css homepage */
+
+#primary{
+	display: block;
+	background-color: #C595FF;
+	width: 100%;
+	height: 1000px;
+	border-radius: 10px;
+}
+
+/* div css portfolio page */
+
+.divone{
+	background-color: #D4FF76;
+	display: block;
+	width: 20%;
+	height: 205px;
+	position: relative;
+	height: 100%;
+	float: left;
+	border-radius: 10px;
+}
+
+.divtwo{
+	background-color: #C595FF;
+	display: block;
+	width: 50%;
+	height: 100%;
+	position: relative;
+	float: left;
+	border-radius: 10px;
+	margin-left: 77px;
+	
+}
+
+.divthree{
+	background-color: #FF4458;
+	display: block;
+	height: 100%;
+	width: 20%;
+	position: relative;
+	float: right;
+	border-radius: 10px;
+	text-align: justify;
+}
+
+/* div css for info page */
+
+.first{
+	display: inline-block;
+	background-color: #C595FF;
+	height: 100%;
+	width: 49%;
+	float: left;
+	border-radius: 10px;
+}
+
+.second{
+	display: inline-block;
+	background-color: #C595FF;
+	height: 100%;
+	width: 49%;
+	float: right;
+	border-radius: 10px;
+}
+
+#horizontal{
+	width: 100%
+}
+
+#vertical{
+	height: 100%;
+}
+
+/* various text/image */ 
+
+h1{
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 60px;
+	font-style: bold;
+	text-transform: uppercase;
+}
+
+h4{
+	font-size: 25px;
+	font-style: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h3{
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 50px;
+	font-style: bold;
+	text-transform: uppercase;
+}
+
+#sitelogo{
+	border-radius: 100%;
+	border: 5px solid #FFFFFF;
+	margin-left: 10px;
+	margin-right: 30px;
+	margin-top: 10px;
+	position: absolute;
+	float: left;
+	width: 50px;
+	height: 50px;
+}
+
+*{
+	font-family: Calibri;
+	color: #FFFFFF;
+}
+
+.index{
+	position: static;
+}
+
+.containerone{
+	height: 2000px;
+	width: 100%;
+	position: static;
+}
+
+.containertwo{
+	height: 600px;
+	width: 100%;
+	position: static;
+}
+
+.notice{
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.contact{
+	font-size: 30px;
+	font-weight: bold;
+	text-align: justify;
+	margin: 30px;
+}
+
+.social{
+	font-size: 30px;
+	font-weight: bold;
+	text-align: justify;
+	margin: 30px;
+}
+
+.portinfo{
+	font-size: 20px;
+	text-align: justify;
+	margin: 20px;
+}
+
+.photoleft{
+	height: 150px;
+	width: 310px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: block;
+	float: left;
+	margin-left: 5%
+}
+
+.photoright{
+	height: 150px;
+	width: 310px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: block;
+	float: right;
+	margin-right: 5%
+}
+
+
+#video{
+	display: block;
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+	height: 360;
+}
+
+#intro{
+	font-size: 25px;
+	text-align: justify;
+	margin: 20px;
+}
+
+
+
